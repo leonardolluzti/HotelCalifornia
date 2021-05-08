@@ -6,6 +6,7 @@ O projeto consiste na criação de uma API que servirá para cadastrar hoteis.
 
 Tecnologias Utilizadas:
 - Java JDK 8
+- IDE Eclipse
 - Spring Boot
 - Lombok
 - MySQL 8.0.24
