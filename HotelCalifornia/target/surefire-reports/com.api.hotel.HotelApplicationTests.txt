@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.api.hotel.HotelApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.344 s <<< FAILURE! - in com.api.hotel.HotelApplicationTests
+contextLoads  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.api.hotel.model.Hotel
+Caused by: org.hibernate.AnnotationException: No identifier specified for entity: com.api.hotel.model.Hotel
+

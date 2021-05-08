@@ -1,0 +1,4 @@
+com/api/hotel/controller/HotelController.class
+com/api/hotel/repository/HotelRepository.class
+com/api/hotel/HotelApplication.class
+com/api/hotel/model/Hotel.class
